@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+It seems that on every enterprise application project I work on I have to define the same basic standards for user interfaces.  Things that should be obvious but, it seems, aren't.
 
-You can use the [editor on GitHub](https://github.com/SimonFletcher/MinimumUIStandards/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+When an architect designs a building with brick wall there doesn't need to be a requirement that specifies that there needs to be morter between each brick to hold it in place.  Similarly, when an application needs to display numeric values, it shouldn't be necessary to specify that they should be right aligned.  Or if a list of values is presented for a user to select from, it shouldn't be necessary to specify tha they are sorted alphabetically.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SimonFletcher/MinimumUIStandards/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This repository is an attempt to capture a lot of the basics, to act as a reference so that I can point development teams at this rather than have to write the same damn requirements again ang again.
