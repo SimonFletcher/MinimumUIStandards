@@ -1,11 +1,17 @@
 ## Forms
 In an enterprise application, forms will be the primary way that your users interact which means that they have to enable the user to input data quickly and efficiently.
 
-- General
-  - Labels should be grouped, visually, with their input fields.
+- Structure
+  - Visually group related content.
+  - Group labels with their input fields.
+- Navigation
   - The tab key should move the focus through each input field on the form in a logical order:top to bottom and left to right.
   - Make it obvious which field currently has focus.
   - There should be a default action when the user hits the `Enter` key - and it should not be destructive.
+- Input Fields - General
+  - Use HTML Attributes to tell the browser what kind of data is being input
+  -  Auto-complete, autofill
+  - (Probably) turn off browser input validation
 - Dropdown lists
   - Should display values sorted alphabetically, or numerically, as appropriate.
   - Should, if there are more than 8-10 values, provide an inline filter/autocomplete option.
@@ -14,12 +20,14 @@ In an enterprise application, forms will be the primary way that your users inte
   - should not allow anything other than numeric values and the decimal separator to be entered.
   - should, ideally, display fully formatted values values when they do not have focus.
 - Buttons:
-  - should look like buttons
+  - should look like buttons.
   - the primary action, e.g. `Save`, should be obvious and the default action when if the user hits the `Enter` key.
   - the secondary action, e.g. `Cancel`, should be visually distinct from the primary action.
   - if there is a destructive action, e.g. `Delete`, it should be spatially separated from any primary or secondary actions.
+- Default values
+  - Only provide where
 - Validation
-  - Whenever possible, validate fields after the user has entered values
+  - Whenever possible, validate fields after the user has entered values.
 - Errors
-  - Should be displayed next to the fields they relate to
-  - Should indicate what is wrong and, ideally, how to fix it
+  - Should be displayed next to the fields to which they relate.
+  - Should indicate what is wrong and, ideally, how to fix it.
