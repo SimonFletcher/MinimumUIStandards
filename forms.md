@@ -15,11 +15,15 @@ In an enterprise application, forms will be the primary way that your users inte
 - Dropdown lists
   - Should display values sorted alphabetically, or numerically, as appropriate.
   - Should, if there are more than 8-10 values, provide an inline filter/autocomplete option.
-- Numeric input fields:
+- Numeric inputs
   - should not require anything other than the number itself, and any decimal separator, to be entered.
   - should not allow anything other than numeric values and the decimal separator to be entered.
   - should, ideally, display fully formatted values values when they do not have focus.
-- Buttons:
+- Date inputs
+  - should allow the date to be typed in - users should not be forced to use the mouse to select a date from some kind of calendar;
+  - BUT should provide a calendar input;
+  - AND that calendar input should enable the date to be selected using keyboard navigation.
+- Buttons
   - should look like buttons.
   - the primary action, e.g. `Save`, should be obvious and the default action when if the user hits the `Enter` key.
   - the secondary action, e.g. `Cancel`, should be visually distinct from the primary action.
