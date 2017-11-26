@@ -13,8 +13,11 @@ In an enterprise application, forms will be the primary way that your users inte
   -  Auto-complete, autofill
   - (Probably) turn off browser input validation
 - Dropdown lists
-  - Should display values sorted alphabetically, or numerically, as appropriate.
-  - Should, if there are more than 8-10 values, provide an inline filter/autocomplete option.
+  - Should display values sorted in a logical order from the user's perspective.
+  - Should, if there are more valuables than can be reasonably displayed, display a scrollbar to enable the extra values to be reached.
+  - should be selectable using the keyboard.  This can take two forms:
+    - As a rule of thumb, if there are less than 20 values then typing a character should move to the first item that starts with that letter in the list - the user can then select the specific value using the arrow keys.
+    - If there more than 20 values, or the values are long or complex, provide an inline filter/autocomplete option.
 - Numeric inputs
   - should not require anything other than the number itself, and any decimal separator, to be entered.
   - should not allow anything other than numeric values and the decimal separator to be entered.
